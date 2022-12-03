@@ -6,7 +6,7 @@ My solutions for [Advent of Code 2022](https://adventofcode.com/2022/).
 | Day | Part 1 | Part 2 | Source |
 |:---:|:------:|:------:|:------:|
 |  [01](https://adventofcode.com/2022/day/1) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day01.py)
-|  [02](https://adventofcode.com/2022/day/2) | | | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day02.py)
+|  [02](https://adventofcode.com/2022/day/2) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day02.py)
 |  [03](https://adventofcode.com/2022/day/3) | | | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day03.py)
 |  [04](https://adventofcode.com/2022/day/4) | | | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day04.py)
 |  [05](https://adventofcode.com/2022/day/5) | | | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day05.py)

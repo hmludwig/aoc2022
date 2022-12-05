@@ -10,4 +10,3 @@ part2 = 0
 
 print(f'Part 1: {part1}')
 print(f'Part 2: {part2}')
-

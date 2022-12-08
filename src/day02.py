@@ -6,9 +6,9 @@ data = [line.strip() for line in f.readlines()]
 part1 = 0
 part2 = 0
 
-A, X = 1, 1 #Rock
-B, Y = 2, 2 #Paper
-C, Z = 3, 3 #Scissor
+A, X = 1, 1  #Rock
+B, Y = 2, 2  #Paper
+C, Z = 3, 3  #Scissor
 
 for x in data:
     a, b = x.split(' ')
@@ -28,11 +28,11 @@ for x in data:
     if b == 2:
         part2 += 3 + a
     elif b == 1:
-        tmp = a-1 if a-1 > 0 else 3
+        tmp = a - 1 if a - 1 > 0 else 3
         part2 += tmp
     elif b == 3:
-        tmp = a+1 if a+1 < 4 else 1
-        part2 += 6 + tmp 
+        tmp = a + 1 if a + 1 < 4 else 1
+        part2 += 6 + tmp
 
 print(f'Part 1: {part1}')
 print(f'Part 2: {part2}')

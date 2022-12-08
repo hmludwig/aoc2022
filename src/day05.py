@@ -8,7 +8,7 @@ drawing, moves = f.read().split('\n\n')
 print(drawing, end='\n\n')
 
 #'[x]_[x]_[x]'
-drawing = [x.replace('[',' ').replace(']',' ') for x in drawing.split('\n')]
+drawing = [x.replace('[', ' ').replace(']', ' ') for x in drawing.split('\n')]
 stacks1 = [[] for _ in range(int(drawing[-1][-2]))]
 stacks2 = [[] for _ in range(int(drawing[-1][-2]))]
 
@@ -19,7 +19,6 @@ for k, row in enumerate(reversed(drawing)):
         if row[i] != ' ':
             stacks1[n].append(row[i])
             stacks2[n].append(row[i])
-
 
 moves = moves.splitlines()
 for move in moves:
@@ -34,7 +33,6 @@ for move in moves:
         stacks1[int(move[-1]) - 1].append(tmp1)
         t_list.append(tmp2)
     stacks2[int(move[-1]) - 1] += list(reversed(t_list))
-
 
 for stack in stacks1:
     part1 += stack.pop()

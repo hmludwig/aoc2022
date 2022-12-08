@@ -14,4 +14,3 @@ cals = sorted(cals)
 
 print(f'Part 1: {cals[-1]}')
 print(f'Part 2: {sum(cals[-3:])}')
-

@@ -30,17 +30,17 @@ for line in data:
     else:
         file_system[path].append(int(line[0]))
 
-folders = defaultdict(lambda : 0)
+folders = defaultdict(lambda: 0)
 for key in file_system.keys():
     folders[key] += sum(file_system[key])
 
-for key in reversed(sorted(file_system.keys(), key = lambda key: len(key))):
+for key in reversed(sorted(file_system.keys(), key=lambda key: len(key))):
     if key == '.':
         continue
     tmp = key.split('/')
     tmp = '/'.join(tmp[:-1])
     folders[tmp] += folders[key]
-   
+
 for value in folders.values():
     if value <= 100000:
         part1 += value

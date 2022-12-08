@@ -10,8 +10,8 @@ for d in data:
     a, b = d.split(',')
     a1, a2 = list(map(int, a.split('-')))
     b1, b2 = list(map(int, b.split('-')))
-    
-    if a1 <= b1 and a2 >= b2 or b1 <= a1 and  b2 >= a2:
+
+    if a1 <= b1 and a2 >= b2 or b1 <= a1 and b2 >= a2:
         part1 += 1
 
     if max(a1, b1) <= min(a2, b2):

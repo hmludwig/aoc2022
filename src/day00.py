@@ -4,7 +4,7 @@ part1 = 0
 part2 = 0
 
 f = open(sys.argv[1])
-data = f.read().strip().split()
+data = f.read().strip().split('\n')
 print(data)
 
 print(f'Part 1: {part1}')

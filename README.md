@@ -19,7 +19,7 @@ My solutions for [Advent of Code 2022](https://adventofcode.com/2022/).
 |  [12](https://adventofcode.com/2022/day/12) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day12.py)
 |  [13](https://adventofcode.com/2022/day/13) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day13.py)
 |  [14](https://adventofcode.com/2022/day/14) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day14.py)
-|  [15](https://adventofcode.com/2022/day/15) |  |  | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day15.py)
+|  [15](https://adventofcode.com/2022/day/15) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day15.py)
 |  [16](https://adventofcode.com/2022/day/16) |  |  | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day16.py)
 |  [17](https://adventofcode.com/2022/day/17) |  |  | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day17.py)
 |  [18](https://adventofcode.com/2022/day/18) |  |  | [:page_facing_up:](https://github.com/hmludwig/aoc2022/blob/main/src/day18.py)
